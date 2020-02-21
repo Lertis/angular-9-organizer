@@ -1,1 +1,6 @@
-p selector works!
+p
+    i.material-icons((click)='go(-1)') arrow_left
+
+    span {{ dateService.date | async | moment }}
+
+    i.material-icons((click)='go(1)') arrow_right
