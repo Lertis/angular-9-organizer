@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0 --port 8000 -o",
-    "puggy": "pug src -P -w",
+    "start": "npm run puggy & ng serve --host 0.0.0.0 --port 8000 -o",
+    "puggy": "pug src -P",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
