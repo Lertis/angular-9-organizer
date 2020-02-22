@@ -6,9 +6,7 @@ import * as moment from 'moment';
 import { Task } from '../models/task';
 import { CreateResponse } from '../models/response';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class TasksService {
   static url = 'https://platform-255512.firebaseio.com/';
 
