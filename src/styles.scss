@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
 
 :root {
     --primary-color: #dc3545;

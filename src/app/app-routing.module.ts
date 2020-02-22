@@ -14,6 +14,10 @@ const routes: Routes = [
     loadChildren: () => import('./modules/organizer/organizer.module').then(m => m.OrganizerModule)
   },
   {
+    path: 'fullcalendar',
+    loadChildren: () => import('./modules/fullcalendar/fullcalendar.module').then(m => m.CalendarModule)
+  },
+  {
     path: '**',
     component: NotFoundComponent
   }
